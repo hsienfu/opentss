@@ -1,0 +1,17 @@
+[package]
+name = "elgamal-curve25519"
+version = "0.2.0"
+edition = "2018"
+license = "MIT/Apache-2.0"
+description = "A library for ElGamal homomorphic encryption"
+readme = "README.md"
+categories = ["cryptography"]
+
+[dependencies]
+rand_core = "~0.3"
+rand_os = "~0.1"
+typenum = "~1.10"
+digest = "~0.8"
+sha2 = "~0.8"
+subtle = "~2.1"
+curve25519-dalek = "~1.1"
